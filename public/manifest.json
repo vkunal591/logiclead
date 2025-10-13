@@ -1,0 +1,20 @@
+{
+  "name": "LogicLead",
+  "short_name": "LogicLead",
+  "start_url": "/",
+  "display": "LogicLead",
+  "theme_color": "#198754",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/images/logo/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
