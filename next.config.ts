@@ -15,7 +15,7 @@ const withPWAModule = withPWA({
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["https://logiclead.vercel.app"],
+    domains: ["logiclead.in"],
   },
   // You can add other Next.js options here if needed
 };
