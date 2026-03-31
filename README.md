@@ -2,7 +2,7 @@ Here’s your **clean and final `README.md`** — focused only on **project setu
 
 ---
 
-# Logiclead Web Application
+# Fastpay Web Application
 
 A responsive and modular web application built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **PWA support** for modern web and mobile experiences.
 

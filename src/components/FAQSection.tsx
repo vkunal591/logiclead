@@ -10,19 +10,19 @@ const faqData = [
       "FASTag is a prepaid tag fixed on your vehicle’s windscreen that enables automatic toll payment at toll plazas using RFID technology.",
   },
   {
-    question: "How can I recharge my FASTag on Logiclead?",
+    question: "How can I recharge my FASTag on FastPay?",
     answer:
       "Simply enter your vehicle/FASTag details, choose a recharge amount, select your payment method (UPI, card, net banking), and complete the payment.",
   },
   {
     question: "What payment methods are accepted?",
     answer:
-      "Logiclead supports UPI, debit/credit cards, net banking, and popular digital wallets.",
+      "FastPay supports UPI, debit/credit cards, net banking, and popular digital wallets.",
   },
   {
     question: "Is there any minimum recharge amount?",
     answer:
-      "Yes, the minimum recharge amount depends on the issuing bank, but on Logiclead, you can start from as low as ₹100.",
+      "Yes, the minimum recharge amount depends on the issuing bank, but on FastPay, you can start from as low as ₹100.",
   },
   {
     question: "How long does it take for the recharge to reflect?",

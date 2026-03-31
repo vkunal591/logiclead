@@ -39,7 +39,7 @@ const Sidebar = () => {
           <div className="flex items-center justify-between p-3 bg-primary shadow-md">
             <Link href="/">
               <Image
-                src="/assets/images/logo/logo.png"
+                src="/assets/images/logo/pwaicon.png"
                 width={150}
                 height={70}
                 unoptimized
@@ -47,6 +47,9 @@ const Sidebar = () => {
                 alt="4U Consultant Service"
                 className="object-contain"
               />
+              <h3 className="text-2xl font-bold">
+                FastPay
+              </h3>
             </Link>
             <button
               onClick={toggleSidebar}

@@ -99,7 +99,7 @@ export default function LoginModal() {
                                     Privacy Policy
                                 </Link>
                                 <br />
-                                🔒 Secured by Logiclead
+                                🔒 Secured by FastPay
                             </div>
                         </form>
                     </motion.div>

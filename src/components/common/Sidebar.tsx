@@ -42,7 +42,7 @@ const Sidebar: React.FC = () => {
 
       {/* Sidebar Drawer */}
       <aside
-        className={`fixed top-0 left-0 h-full bg-primary text-white flex flex-col overflow-y-auto mt-[10%] shadow-md z-40 transform transition-transform duration-300
+        className={`fixed top-0 left-0 h-full bg-primary text-white flex flex-col overflow-y-auto  shadow-md z-40 transform transition-transform duration-300
         ${isOpen ? "translate-x-0 w-64" : "-translate-x-full w-64"}
         lg:translate-x-0 lg:w-[17%]`}
       >
@@ -54,16 +54,19 @@ const Sidebar: React.FC = () => {
         </div>
 
         {/* Logo */}
-        <div className="flex justify-center items-center py-3 border-b border-b-secondary">
+        <div className="flex justify-center items-center gap-2 py-3 border-b border-b-secondary">
           <Image
             priority
-            width={500}
-            height={500}
-            alt="SkyField Logo"
+            width={30}
+            height={30}
+            alt=" Logo"
             unoptimized
-            src="/assets/images/logo/logo.png"
-            className="w-3/5 object-contain"
+            src="/assets/images/logo/pwaicon.png"
+            className=" object-contain"
           />
+          <h3 className="text-2xl font-bold">
+            FastPay
+          </h3>
         </div>
 
         {/* Profile */}

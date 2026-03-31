@@ -12,7 +12,7 @@ const AboutUsSection = () => {
           <div className="lg:w-1/2">
             <h2 className="text-3xl font-semibold mb-4">About Us</h2>
             <p className="mb-4 text-gray-700">
-              Welcome to <b>Logiclead</b>, your trusted platform for FASTag recharge. 
+              Welcome to <b>FastPay</b>, your trusted platform for FASTag recharge. 
               We make it easy for vehicle owners to recharge their FASTag quickly and securely from anywhere.
             </p>
             <p className="text-gray-700">

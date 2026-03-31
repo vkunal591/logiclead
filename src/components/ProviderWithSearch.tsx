@@ -45,7 +45,7 @@ const ProviderWithSearch = () => {
         <section className="    max-w-7xl mx-auto">
             {/* Search Box */}
             <div className="search-container my-4 text-center">
-                <Image src={'/assets/images/logo/bharat.png'} className="w-24 h-14 object-contain" width={800} height={800} alt="bharat connect" />
+                {/* <Image src={'/assets/images/logo/bharat.png'} className="w-24 h-14 object-contain" width={800} height={800} alt="bharat connect" /> */}
                 <h3 className="text-xl font-semibold mb-4">Select your FasTag Providers</h3>
                 <div className="relative max-w-md mx-auto">
                     <input

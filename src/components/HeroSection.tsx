@@ -16,7 +16,7 @@ const HeroSection = () => {
                     <div className="text-center lg:text-left flex-1">
                         <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
                             FASTag Recharge <br />
-                            Online at <span className="text-primary">Logiclead</span>
+                            Online at <span className="text-primary">FastPay</span>
                         </h1>
 
                         <ul className="space-y-3 text-gray-700">
@@ -43,13 +43,13 @@ const HeroSection = () => {
                                 <label className="text-white font-semibold text-lg">
                                     FASTag Recharge
                                 </label>
-                                <Image
+                                {/* <Image
                                     src="https://logiclead.in/assets/img/icons/bbps-new-2.png"
                                     alt="Bharat Connect"
                                     width={70}
                                     height={20}
                                     className="mt-1"
-                                />
+                                /> */}
                             </div>
 
                             {/* Form */}

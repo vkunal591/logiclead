@@ -20,7 +20,7 @@ const LandingPage = () => {
       <ProviderSection />
       <AboutUsSection />
       <FAQSection />
-      <AppDownloadSection />
+      {/* <AppDownloadSection /> */}
     </>
   )
 }

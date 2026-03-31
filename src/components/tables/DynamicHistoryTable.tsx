@@ -72,7 +72,7 @@ function DynamicHistoryTable<T extends Record<string, any>>({
                 <h4 className="text-xl text-white lg:text-gray-700 font-semibold flex items-center gap-2">
                     {icon || <FaHistory />} {title}
                 </h4>
-                <Image src={'/assets/images/logo/bharat.png'} className="w-24 h-14 object-contain" width={800} height={800} alt="bharat connect" />
+                {/* <Image src={'/assets/images/logo/bharat.png'} className="w-24 h-14 object-contain" width={800} height={800} alt="bharat connect" /> */}
             </div>
 
             {/* Search & Date Filters */}

@@ -37,15 +37,18 @@ const Navbar = () => {
             <motion.div
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="relative w-36 h-20 scale-100 ml-0 lg:ml-10"
+              // className="relative w-36 h-20 scale-100 ml-0 lg:ml-10"
             >
-              <Image
-                src="/assets/images/logo/logo.png"
+              {/* <Image
+                src="/assets/images/logo/pwaicon.png"
                 alt="4U Consultant Services"
                 fill
                 className="object-contain filter brightness-0 invert"
                 priority
-              />
+              /> */}
+              <h3 className="text-2xl font-bold text-white">
+                FastPay
+              </h3>
             </motion.div>
           </Link>
 

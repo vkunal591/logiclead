@@ -24,7 +24,7 @@ const OffersSection: React.FC<OffersSectionProps> = ({ offers }) => {
                     <h4 className="text-lg font-semibold flex items-center gap-2">
                         <FaGift size={20} className="text-gray-800" /> Exclusive Offers
                     </h4>
-                    <Image src={'/assets/images/logo/bharat.png'} className="w-24 h-14 object-contain" width={800} height={800} alt="bharat connect" />
+                    {/* <Image src={'/assets/images/logo/bharat.png'} className="w-24 h-14 object-contain" width={800} height={800} alt="bharat connect" /> */}
 
                 </div>
 

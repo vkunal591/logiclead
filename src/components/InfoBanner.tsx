@@ -34,16 +34,19 @@ const InfoBanner: React.FC<InfoBannerProps> = ({
     return (
         <>
             <div className="fixed  z-[50000] flex lg:hidden items-center justify-between bg-primary border border-green-300 rounded-lg p-4 gap-4">
-              <div className="w-1/5" />
+                <div className="w-1/5" />
                 {/* Info Icon */}
                 <div className="flex-shrink-0 w-2/5">
                     <Image
-                        src="/assets/images/logo/logo.png"
+                        src="/assets/images/logo/pwaicon.png"
                         alt="Info"
-                        width={400}
-                        height={400}
+                        width={30}
+                        height={30}
                         className="w-full"
                     />
+                    <h3 className="text-2xl font-bold">
+                        FastPay
+                    </h3>
                 </div>
 
 

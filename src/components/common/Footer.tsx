@@ -13,14 +13,17 @@ const Footer = () => {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
           {/* Logo & Social */}
           <div>
-            <div className="mb-4">
+            <div className="mb-4 flex items-center justify-start gap-2">
               <Image
-                src="https://logiclead.in/assets/img/banking_logo/logic_img2.png"
+                src="/assets/images/logo/pwaicon.png"
                 alt="Logo"
-                width={150}
-                height={50}
+                width={30}
+                height={30}
                 className="object-contain"
               />
+              <h3 className="text-2xl font-bold">
+                FastPay
+              </h3>
             </div>
             <div className="flex gap-3 mb-3">
               {/* Social icons (optional) */}
@@ -58,24 +61,24 @@ const Footer = () => {
           <div className="font-light  text-white">
             <h5 className="text-lg font-semibold mb-3">Reach Us</h5>
             <p className="flex items-center mb-2">
-              <FaEnvelope className="bi bi-envelope-fill me-2" /> ops@logiclead.in
+              <FaEnvelope className="bi bi-envelope-fill me-2" /> ops@fastpay.in
             </p>
             <p className="flex items-center mb-2">
-              <FaEnvelope className="bi bi-envelope-fill me-2" /> tech@logiclead.in
+              <FaEnvelope className="bi bi-envelope-fill me-2" /> tech@fastpay.in
             </p>
-            <p className="flex items-start">
+            {/* <p className="flex items-start">
               <span className="w-4 mr-2">
                 <FaLocationPin className="t" />
               </span>
-              Office No 15, Ground Floor, D-29,
+              Office No 501, Ground Floor, D-29,
               Sector 3, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301
-            </p>
+            </p> */}
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-gray-100 py-6 mt-8 text-sm">
-          <p>© 2025 Logiclead. All rights reserved</p>
+          <p>© 2025 fastpay. All rights reserved</p>
           <div className="flex gap-4 mt-3 md:mt-0">
             <Link href="/termsConditions" className="hover:text-white transition-colors">
               Terms &amp; Conditions

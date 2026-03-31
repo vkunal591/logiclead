@@ -10,7 +10,7 @@ const steps = [
   {
     icon: FaMobile,
     title: "1. Download App",
-    description: "Download Logiclead app on your mobile and select 'Recharge Fastag'.",
+    description: "Download FastPay app on your mobile and select 'Recharge Fastag'.",
   },
   {
     icon: RiBankFill,
